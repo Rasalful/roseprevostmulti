@@ -1,16 +1,11 @@
 @font-face {
- font-family: "occupied";
- src: url("../FONTS/Occupied.otf")
+  font-family: "Occupied";
+  src: url("../FONTS/Occupied.otf");
 }
 
 @font-face {
- font-family: "kanuda";
- src: url("../FONTS/Kanuda.ttf")
-}
-
-@font-face {
- font-family: "goodnight";
- src: url("../FONTS/Good-night.ttf")
+  font-family: "good-night";
+  src: url("../FONTS/Good-night.ttf");
 }
 
 html {
@@ -35,7 +30,10 @@ margin-left: 50px;
 margin-right: 5px;
 margin-top: 89px;
 font-size: 10px;
-font-family: goodnight;
+}
+
+li a{
+  font-family: "good-night", sans-serif;
 }
 
 .liennav  {
@@ -97,7 +95,7 @@ body {
 h1 {
   color: rgb(168, 61, 252);
   font-weight: bold;
-  font-family: goodnight;
+  font-family: "good-night", sans-serif;
   font-size: 36px;
   padding-left: 15px;
   text-shadow: 1px 1px 1px black;
@@ -110,7 +108,7 @@ h1 {
   margin-left: 5px;
   margin-right: 5px;
   font-weight: bold;
-  font-family: Occupied;
+  font-family: "Occupied", sans-serif;
 }
 
 .lien {
@@ -124,7 +122,7 @@ h1 {
   font-weight: bold;
   background-color: #e0e0e0;
   -webkit-box-shadow: 3px -1px 5px 3px rgba(0,0,0,0.24);
-  font-family: Occupied;
+  font-family: "Occupied", sans-serif;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -157,7 +155,7 @@ h1 {
   float: right;
   color: rgb(168, 61, 252);
   text-shadow: 1px 1px 1px black;
-  font-family: goodnight;
+  font-family: "good-night", sans-serif;
 }
 
 .conteneurproduits {
@@ -180,7 +178,7 @@ h1 {
 h3 {
   display:inline;
   color: #3D5900;
-  font-family: Occupied;
+  font-family: "Occupied", sans-serif;
 }
 
 span {
@@ -260,7 +258,7 @@ span {
 .store h2 {
   color: #A83DFC;
   text-shadow: 1px 1px 1px black;
-  font-family: goodnight;
+  font-family: "good-night", sans-serif;
 }
 
 .store p {
@@ -268,7 +266,7 @@ span {
   text-align-last: right;
   font-size: 25px;
   font-weight: bold;
-  font-family: Occupied;&
+  font-family: "Occupied", sans-serif;
   }
 
   .facebook {
@@ -361,7 +359,7 @@ textarea {
   background: #000;
   color:rgb(219, 121, 168);
   background-color: #e0e0e0;
-  font-family: Occupied;
+  font-family: "Occupied", sans-serif;
   font-weight: bold;
   border: none;
   height: 25px;
@@ -392,7 +390,7 @@ footer {
 
 footer p {
   margin: 0;
-  font-family: Occupied;
+  font-family: "Occupied", sans-serif;
   font-weight: bold;
   font-size: 22px;
   position: absolute;
